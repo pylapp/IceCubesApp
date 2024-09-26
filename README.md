@@ -1,3 +1,15 @@
+# Disclaimer
+
+ヾ( ˃ᴗ˂ )◞ •°✰ **This is a fork of [Dimillian/IceCubesApp](https://github.com/Dimillian/IceCubesApp)**
+
+The aim of this project is to submit evolutions.
+This is not the official repository of the app.
+You should not submit bug reports, issues or pull requests to this fork.
+
+Last constributions from here:
+- Improve french i18n with updated translations of localizables ([#2201](https://github.com/Dimillian/IceCubesApp/pull/2201))
+- Update french wordings ([#2118](https://github.com/Dimillian/IceCubesApp/pull/2118))
+
 # IceCubesApp
 
 [![Download on the App Store](Images/download_on_the_app_store.svg)](https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884)
