@@ -78,10 +78,11 @@ git rebase upstream/main
 git chekcout develop
 git rebase main
 
-# Should have in top of history the commits:
-# - Apply my own Apple Developer configuration for debuging purposes / 8f45356a4a987e2cd5d720b8dc23c270b55b2c7e / Thu Sep 26 11:18:59 2024 +0200
+# Should have in top of history these 4 commits
+# - Just add disclaimer about the fork / Thu Sep 26 14:26:27 2024 +0200
+# - Just add a reminder about contributions for upstream / 4fbf7a5b33f3bb75e9b5fe58ab4e6ec4e8d18efb / Thu Sep 26 14:06:05 2024 +0200
 # - Update local XCConfig file / ebe378bb0358f91e72e533c30eb3cebef5a1f749 / Thu Sep 26 11:38:13 2024 +0200
-# - Just add a reminder about contributions for upstream
+# - Apply my own Apple Developer configuration for debuging purposes / 8f45356a4a987e2cd5d720b8dc23c270b55b2c7e / Thu Sep 26 11:18:59 2024 +0200
 ```
 
 3. Reproduce the bug, check is issue already exists
