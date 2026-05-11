@@ -108,6 +108,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		957998EF2FB2174B001AB4AB /* IceCubesApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IceCubesApp.xcconfig; sourceTree = "<group>"; };
 		9F29553D292B67B600E0E81B /* NetworkClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkClient; path = Packages/NetworkClient; sourceTree = "<group>"; };
 		9F29553E292B6AF600E0E81B /* Timeline */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Timeline; path = Packages/Timeline; sourceTree = "<group>"; };
 		9F2A5404296995FB009B2D7C /* QuickLookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookUI.framework; path = System/Library/Frameworks/QuickLookUI.framework; sourceTree = SDKROOT; };
@@ -132,7 +133,6 @@
 		9FD542E52962D2CE0045321A /* Lists */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Lists; path = Packages/Lists; sourceTree = "<group>"; };
 		9FE0346A2ADD59AC00529EA8 /* MediaUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MediaUI; path = Packages/MediaUI; sourceTree = "<group>"; };
 		9FE3DB55296FEF5800628CB0 /* AppAccount */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppAccount; path = Packages/AppAccount; sourceTree = "<group>"; };
-		DD31E2E5297FB68B00A4BE29 /* IceCubesApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IceCubesApp.xcconfig; sourceTree = "<group>"; };
 		E9DB78972E004E4C004EAC2E /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		E9DF41FA29830FEC0003AAD2 /* IceCubesActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IceCubesActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DF41FB29830FEC0003AAD2 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
@@ -307,8 +307,8 @@
 			children = (
 				E9FB0ACA2E09B13C002D232F /* AlternateIcons */,
 				E9DB78972E004E4C004EAC2E /* AppIcon.icon */,
-				DD31E2E5297FB68B00A4BE29 /* IceCubesApp.xcconfig */,
 				9F7D939529800B0300EE6B7A /* IceCubesApp-release.xcconfig */,
+				957998EF2FB2174B001AB4AB /* IceCubesApp.xcconfig */,
 				9FF305C02CCA8569007B6B8F /* IceCubesApp */,
 				9FF304F52CCA8440007B6B8F /* IceCubesAppIntents */,
 				9FF305672CCA8515007B6B8F /* IceCubesActionExtension */,
@@ -928,7 +928,6 @@
 		};
 		9FBFE646292A715600C250E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD31E2E5297FB68B00A4BE29 /* IceCubesApp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
